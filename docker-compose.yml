@@ -6,5 +6,5 @@ services:
       - "38888:8000"
     environment:
       - TRANSLATION_API_URL=https://api.deeplx.org/translate
-    # volumes:
-    #   - ./main.py:/app/main.py
+    volumes:
+      - ./main.py:/app/main.py
